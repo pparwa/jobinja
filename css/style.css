@@ -1,0 +1,25 @@
+.underline{
+    text-decoration: none;
+
+}
+li{
+    list-style: none;
+}
+.setborder{
+    border-left: 2px solid gray;
+}
+.back{
+    background-image: linear-gradient(to right, rgb(125, 125, 213) , rgb(135, 151, 122));
+}
+.size{
+ width: 200px;
+ height: 30px;
+}
+.zind{
+    z-index: 999999999;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
